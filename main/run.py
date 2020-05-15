@@ -1,18 +1,22 @@
-from autotest.main.ytcms_page import YtPage
-from autotest.main.ytcms_link import YtLink
-from autotest.main.ytcms_tag import YtTag
-from autotest.main.ytcms_layout import YtLayout
-from autotest.main.ytcms_profile import YtProfile
-from autotest.main.ytcms_site import YtSite
-from autotest.main.ytcms_logout import YtLogout
-from autotest.core.driver_handler import DriverHandler
+from ytcms_page import YtPage
+from ytcms_link import YtLink
+from ytcms_tag import YtTag
+from ytcms_layout import YtLayout
+from ytcms_profile import YtProfile
+from ytcms_site import YtSite
+from ytcms_logout import YtLogout
+from core.driver_handler import DriverHandler
 import time
 
+
 if __name__ == '__main__':
+    start = time.time()
     driver_handler = DriverHandler()
     driver = driver_handler.init_driver('yt_test')
     logger = driver_handler.logger
     url = driver_handler.url
+
+    # 开始测试各个模块
     page = YtPage(driver, logger, url)
     page.run()
     link = YtLink(driver, logger, url)
@@ -29,3 +33,4 @@ if __name__ == '__main__':
     logout = YtLogout(driver, logger, url)
     logout.run()
     driver.quit()
+    print(time.time()-start)

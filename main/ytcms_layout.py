@@ -1,4 +1,4 @@
-from autotest.core.utils import Utils
+from core.utils import Utils
 
 import time
 import os

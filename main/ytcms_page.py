@@ -1,5 +1,7 @@
-from autotest.core.utils import Utils
-from autotest.core.driver_handler import DriverHandler
+import sys
+sys.path.append('../')
+from core.utils import Utils
+from core.driver_handler import DriverHandler
 import time
 import os
 # 羊驼cms Page 页面测试类

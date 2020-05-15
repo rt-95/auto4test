@@ -1,5 +1,5 @@
-from autotest.core.utils import Utils
-from autotest.core.driver_handler import DriverHandler
+from core.utils import Utils
+from core.driver_handler import DriverHandler
 import time
 import os
 

@@ -1,5 +1,5 @@
-from autotest.core.utils import Utils
-from autotest.core.driver_handler import DriverHandler
+from core.utils import Utils
+from core.driver_handler import DriverHandler
 import time
 import os
 
@@ -19,4 +19,3 @@ class YtSite(object):
         self.utils.insert_to_all_text()
         self.utils.select_all_item(1)
         self.utils.get_item_and_click('//button[1]')
-        self.driver.implicitly_wait(3)
