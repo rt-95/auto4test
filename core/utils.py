@@ -19,7 +19,7 @@ class Utils(object):
          # 记下请求
         if (href) :
             self.logger.info('trigger off the function of %s' % href)
-            with open('../log/urls.log', 'w') as fp:
+            with open('../logs/urls.log', 'w') as fp:
                 fp.write(href)
         
         else :

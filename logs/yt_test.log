@@ -1,0 +1,37 @@
+2020-05-15 21:03:37,763 - yt_test - INFO - You have choose the Chrome browser to driver.
+2020-05-15 21:03:37,763 - yt_test - INFO - The testing Domain is http://test2.test.com/?/admin
+2020-05-15 21:03:41,374 - yt_test - INFO - The keys was sent successfully@
+2020-05-15 21:03:41,451 - yt_test - INFO - The keys was sent successfully@
+2020-05-15 21:03:41,476 - yt_test - INFO - force click
+2020-05-15 21:03:41,661 - yt_test - INFO - The tag was clicked@
+2020-05-15 21:03:43,839 - yt_test - INFO - trigger off the function of http://test2.test.com/?/admin/site/5e54bbd888e37/
+2020-05-15 21:04:12,208 - yt_test - INFO - You have choose the Chrome browser to driver.
+2020-05-15 21:04:12,208 - yt_test - INFO - The testing Domain is http://test2.test.com/?/admin
+2020-05-15 21:04:16,946 - yt_test - INFO - The keys was sent successfully@
+2020-05-15 21:04:17,027 - yt_test - INFO - The keys was sent successfully@
+2020-05-15 21:04:17,052 - yt_test - INFO - force click
+2020-05-15 21:04:17,225 - yt_test - INFO - The tag was clicked@
+2020-05-15 21:04:19,391 - yt_test - INFO - trigger off the function of http://test2.test.com/?/admin/site/5e54bbd888e37/
+2020-05-15 21:04:53,532 - yt_test - INFO - You have choose the Chrome browser to driver.
+2020-05-15 21:04:53,532 - yt_test - INFO - The testing Domain is http://test2.test.com/?/admin
+2020-05-15 21:04:58,954 - yt_test - INFO - The keys was sent successfully@
+2020-05-15 21:04:59,042 - yt_test - INFO - The keys was sent successfully@
+2020-05-15 21:04:59,081 - yt_test - INFO - force click
+2020-05-15 21:04:59,337 - yt_test - INFO - The tag was clicked@
+2020-05-15 21:05:01,531 - yt_test - INFO - trigger off the function of http://test2.test.com/?/admin/site/5e54bbd888e37/
+2020-05-15 21:05:01,670 - yt_test - INFO - The tag was clicked@
+2020-05-15 21:05:03,958 - yt_test - INFO - trigger off the function of http://test2.test.com/?/admin/page/add/0/
+2020-05-15 21:05:04,839 - yt_test - INFO - The tag was clicked@
+2020-05-15 21:05:05,409 - yt_test - INFO - insert the data to all text input items successfully@
+2020-05-15 21:05:05,588 - yt_test - INFO - insert the data to iframe successfully@
+2020-05-15 21:05:05,764 - yt_test - ERROR - Failed to filled all the select items with Message: Could not locate element with index 1
+Traceback (most recent call last):
+  File "../core/utils.py", line 61, in select_all_item
+    s.select_by_index(index)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/support/select.py", line 103, in select_by_index
+    raise NoSuchElementException("Could not locate element with index %d" % index)
+selenium.common.exceptions.NoSuchElementException: Message: Could not locate element with index 1
+
+2020-05-15 21:05:05,874 - yt_test - INFO - The keys was sent successfully@
+2020-05-15 21:05:05,892 - yt_test - INFO - force click
+2020-05-15 21:05:06,671 - yt_test - INFO - The tag was clicked@

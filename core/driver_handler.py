@@ -1,7 +1,7 @@
 import os
 from selenium import webdriver
 from configparser import ConfigParser
-from autotest.core.logger import Logger
+from core.logger import Logger
 
 
 
